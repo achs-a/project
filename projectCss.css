@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+.header{
+    font-size: 2.5rem;
+    margin: 2.4rem 0.3rem 3rem 2rem;
+    font-weight: 700;
+    color: rgba(2, 2, 94, 0.966);
+    /* font-style: serif; */
+
+}
+.call{
+    padding: 0.8rem;
+    color: rgba(35, 35, 119, 0.856);
+    font-size: 15px;
+    font-weight: 700;
+    background-color: rgb(81, 219, 155);
+    border-radius: 0.3rem;
+    border-color: transparent;
+    font-style: bold;
+    word-spacing: -2px;
+    margin-left: 60rem;
+}
+.mid-head{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 600;
+    word-spacing: -2px;
+}
+.paragraph{
+text-align: center;
+font-size: 1.4rem;
+}
+.take{
+    padding: 0.8rem;
+    color: rgba(2, 2, 94, 0.966);
+    font-size: 15px;
+    font-weight: 700;
+    background-color: rgb(81, 219, 155);
+    border-radius: 0.3rem;
+    border-color: transparent;
+    font-style: bold;
+    word-spacing: -2px;
+    margin-left: 38rem;
+    margin-top: 2rem;
+
+}
+.price1{
+    font-size: 6rem;
+    color: rgba(2, 2, 94, 0.966);
+text-align: center;
+}
+.p-price{
+font-size: 1.2rem;
+text-align: center;
+}
+.diagram-price{
+    position: relative;
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 30px;
+    margin-top: 8%;
+}
+.diagram-price .container{
+    width: 300px;
+    position: relative;
+    height: 350px;
+    background-color: rgba(2, 2, 94, 0.966);
+    margin: 30px 10px;
+    padding: 20px 20px;
+    flex-direction: column;
+    box-shadow: 0.5px 6px transparent;
+}
+.container{
+    margin-left: 2rem;
+    color: white;
+    border-radius: 0.7rem;
+    
+}
+.dollar{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.interested{
+    padding: 0.8rem 4rem 0.8rem 4rem;
+    background-color: rgb(81, 219, 155);
+    border-radius: 0.6rem;
+    margin-top: 1.2rem;
+    margin-left: 2rem;
+    font-weight: 600;
+    color: rgba(2, 2, 94, 0.966);
+}
+.interested:hover{
+    background-color: white;
+    border: transparent;
+}
+.web-rules{
+   margin: 5rem 1rem 5rem 1rem; 
+   padding: 1.9rem;
+   /* background-color: rgba(2, 2, 94, 0.966); */
+   border-radius: 0.7rem;
+   border: transparent;
+   word-spacing: 0.2rem;
+   font-size: 1.2rem;
+   font-weight: 500;
+}
+h5{
+    margin-bottom: 2rem;
+    font-size: 1.8rem;
+}
+
+/* .span{
+    background-color: red;
+} */
+.container1{
+    position: relative;
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px;
+    margin-top: 8%;  
+}
+/* .container*/ .cont-nainer{
+    width: 300px;
+    position: relative;
+    /* height: 600;s */
+    /* background-color: red; */
+    margin: 0px 1px 6px 2px;
+    padding: 20px 15px;
+    align-items: center;
+    display: flex;
+transition: 0.3s ease-in-out;
+    flex-direction: column;
+    margin-top: 5%;
+}
+h1{
+    color: rgba(2, 2, 94, 0.966);
+    margin-top: 1.6rem;
+    margin-bottom: 1.4rem;
+    
+}
+.cont{
+    font-size: 1.1;
+    font-weight: 90;
+}
+
+.mid-footer{
+display: flex;
+flex-direction: column;
+margin-left: 1.7rem;
+}
+.h-footer{
+    font-size: 5.5rem;
+    text-align: center; 
+    color:  rgba(2, 2, 94, 0.966);
+    margin-bottom: 1.2rem;
+
+}
+h4{
+    font-size: 1.7rem;
+    color:  rgba(2, 2, 94, 0.966);
+    margin-bottom: 1rem;
+}
+.foter{
+    font-size: 1.2rem;
+    margin-bottom: 1.3rem;
+    word-spacing: 1.2px;
+}
+.ls{
+    font-size: 1.2rem;
+    
+}
+footer{
+    margin-bottom: 2rem;
+    word-spacing: 1.2px;
+    margin-left: 1.7rem;
+    font-size: 1rem;
+    margin-top: 0.8rem;
+
+}
