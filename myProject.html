@@ -7,6 +7,28 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" 
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link href="projectCss.css" rel="stylesheet" type="text/css" />
+
+  <script>
+    window.onload = function () {
+//array of image urls
+var image = [
+"image1.webp",
+"image2.webp"
+];
+//get the image element by its ID 
+var imgElement = document.getElementById("changingImage");
+
+//set initial image
+var currentIndex = 0;
+imgElement.src = images[currentIndex];
+
+//function to change the image every 10s
+setInterval(function () {
+currentIndex = (currentIndex + 1) % image.length;
+imgElement.src = image[currentIndex];
+}, 10000);//10s in millsecond
+    };    
+    </script>
 </head>
 <body>
     <div class="header">
@@ -25,7 +47,9 @@
     <div class="price">
         <h2 class="price1">Affordable<br> subscription pricing</h2>
             <p class="p-price">built and managed 100% by us, becouse you known you'll get around to it on your own.</p>
-    
+    <div>
+       <img id="changingImage" src="image1.webp" alt="changingImage">
+    </div>
         <div class="diagram-price">
             <div class="container">
             <i class="fa-sharp fa-solid fa-display" style="color: rgb(81, 219, 155);font-size: 2.4rem;margin-top: 2rem;"></i>
