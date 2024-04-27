@@ -11,9 +11,11 @@
   <script>
     window.onload = function () {
 //array of image urls
-var image = [
+var images = [
 "image1.webp",
-"image2.webp"
+"image2.webp",
+"fiqque1.jpg",
+"fique2.jpg"
 ];
 //get the image element by its ID 
 var imgElement = document.getElementById("changingImage");
@@ -25,7 +27,7 @@ imgElement.src = images[currentIndex];
 //function to change the image every 10s
 setInterval(function () {
 currentIndex = (currentIndex + 1) % image.length;
-imgElement.src = image[currentIndex];
+imgElement.src = images[currentIndex];
 }, 10000);//10s in millsecond
     };    
     </script>
